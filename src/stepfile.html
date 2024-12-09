@@ -8,12 +8,12 @@
             body {
                 font-family: Monospace;
                 background-color: #000;
-                color: #58ec4b;
+                color: #fff;
                 margin: 0px;
                 overflow: hidden;
             }
             #info {
-                color: #c53434;
+                color: #fff;
                 position: absolute;
                 top: 10px;
                 width: 100%;
@@ -165,7 +165,7 @@
                 var loader = new THREE.VRMLLoader();
                 // loader.load( 'assets/house.wrl', function ( object ) {
                 
-                loader.load( 'assets/icezum.wrl', function ( object ) {
+                loader.load( 'assets/i', function ( object ) {
                 //loader.load( 'assets/oshwi.wrl', function ( object ) {
                     scene.add( object );
                     fitCameraToObject ( camera, object, 1.35, controls );
